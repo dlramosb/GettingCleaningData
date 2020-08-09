@@ -12,15 +12,17 @@ The measurements contained in this data set were acquired using the acceleromete
 
 # Datasets and files in the zip
 
+This are the files and datasets avalaible in UCI HAR DATASET:
+
 'features_info.txt': Information about the variables used on features measured
 
-'features.txt': List of all features.
+'features.txt': List of features measured by smartphone.
 
 'test/X_test.txt': Test set.
 
 'test/y_test.txt': Test labels.
 
-'activity_labels.txt': Activities measured by smartphone.
+'activity_labels.txt': Activities detected by smartphone.
 
 'train/X_train.txt': Training set.
 
@@ -37,5 +39,7 @@ The measurements contained in this data set were acquired using the acceleromete
 # ¿How the script works?
 1. Call the libraries needed to work optimally.
 2. Read the data set of training and test.
-3. Select only mean and standart desviation data variables from all labels.
-4. Write the tidy data in a file called "Tidy_data.txt"
+3. Read features and the six activities from the directory.
+4. Select only mean and standart desviation data variables from all labels.
+5. The datasets are merged and reorganized.
+6. Write the tidy data in a file called "Tidy_data.txt"
