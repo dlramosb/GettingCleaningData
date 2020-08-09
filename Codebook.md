@@ -28,6 +28,12 @@ This are the files and datasets avalaible in UCI HAR DATASET:
 
 'train/y_train.txt': Training labels.
 
+# Variables
+
+1. 'Subject': Number of subjects from whom the features were taken. The range is 1-30 subjects.
+2. 'tBodyAccMean/tBodyAccStd': This variables are relative to the acceleration signal that is obtained by subtracting that of each of the x, y, z components from the gravity g value. m/s^2 are the units.
+3. 'tBodyGiroMean/Std': These variables are relative to the gyroscope measurement provided by the smartphone. The values are mean or std of the real measures.
+
 # ¿How we transform the data?
 
 1. Merge the training and the test sets to create one data set.
